@@ -22,9 +22,9 @@ function funestFunction(){
     console.log(3,fun)
 }
 
-console.log("window " + fun)
-funFunction()
-funerFunction()
-funestFunction(fun)
-scope()
-console.log(fun)
+console.log("window " + fun) // window 5
+funFunction() // 1 Hello
+funerFunction() // 2 Bye
+funestFunction() // 3 notcoming
+scope() // hello 
+console.log(fun) // notcoming
