@@ -10,6 +10,8 @@ console.log(c); // 84 --> because of Type Coercion
 let d = a + Number(b);
 console.log(d); // 12
 
+console.log(typeof(d)) // Number
+console.log(typeof(b)) // string
 
 console.log(Number("hello")) // NaN
 
