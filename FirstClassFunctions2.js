@@ -1,3 +1,5 @@
+
+// Example --->
 function compareBy(propertyName) {
     return function (a, b) {
       let x = a[propertyName],
@@ -33,3 +35,24 @@ console.table(products);
 // │    1    │ 'Samsung Galaxy' │  850  │
 // │    2    │     'iPhone'     │  900  │
 // └─────────┴──────────────────┴───────┘
+
+
+// Example 2 --->
+
+var add = function(a,b){
+    return a + b ;
+}
+
+var subtract = function(a,b){
+    return a - b ;
+}
+
+function calculator(a, b , fn){
+     return fn(a,b);
+}
+
+let ans1 = calculator(100,200,add);
+console.log(ans1);
+
+let ans2 = calculator(100,200,subtract);
+console.log(ans2);
