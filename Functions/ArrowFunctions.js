@@ -11,8 +11,7 @@ console.log(typeof(add)) // functions
 console.log(add instanceof Function) // true
 
 
-// Example --->
+// Example of using arrow function as arguments --->
 let arr = [84,74,12,98,63,54];
-
 arr.sort((a,b)=>{return a-b})
 console.log(arr)  // [ 12, 54, 63, 74, 84, 98 ]
