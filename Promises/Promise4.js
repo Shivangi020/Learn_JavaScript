@@ -15,3 +15,4 @@ const promise = new Promise((resolve,reject)=>{
 promise.then((result)=>console.log(result))
   .catch(err=>console.log(err))
   .finally(()=>console.log('ok done'))
+

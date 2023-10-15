@@ -17,7 +17,7 @@ myPromise
 
 
 const promise1 = new Promise((resolve,reject)=>{
-    setTimeout(reject,100,'HIIII')
+    setTimeout(resolve,100,'HIIII')
 })
 
 const promise2 = new Promise((resolve,reject)=>{
